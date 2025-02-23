@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = ""
+authors = ["manusa3190 <yuta.ueda.fromosaka@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+websockets = "^15.0.0"
+aiohttp = "^3.8.5"
+python-dotenv = "^1.0.1"
+openai = "^1.63.2"
+fastapi = "^0.115.8"
+aiortc = "^1.10.1"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
